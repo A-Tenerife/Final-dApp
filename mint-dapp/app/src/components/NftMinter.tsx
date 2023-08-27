@@ -6,9 +6,9 @@ import { FC, useCallback, useState } from "react";
 import { mintWithMetaplexJs } from "utils/metaplex";
 import { notify } from "utils/notifications";
 
-const TOKEN_NAME = "Solana Workshop NFT";
-const TOKEN_SYMBOL = "SHOP";
-const TOKEN_DESCRIPTION = "NFT minted in the NFT Minter workshop!";
+const TOKEN_NAME = "Solana Bootcamp NFT";
+const TOKEN_SYMBOL = "SSSS";
+const TOKEN_DESCRIPTION = "Hi Thank You For Running this dApp";
 const WORKSHOP_COLLECTION = new PublicKey("CPpyd2Uq1XkCkd9KHswjttdQXTvZ4mmrnif3tXg9i8sk");
 
 export const NftMinter: FC = () => {
